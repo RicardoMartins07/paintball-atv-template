@@ -25,6 +25,10 @@ This repository contains a website template developed for Paintball and ATV (All
 - **HTML5**: Semantic structure for accessibility and SEO.
 - **Node.js**: Used for the backend.
 
+### Libraries Used
+- **react-datepicker**: A library for date and time selection.
+- **react-big-calendar**: A flexible calendar component used in various sections for booking and event management.
+
 ## Accessing the Admin Dashboard
 
 To access the admin dashboard, use the following credentials:
