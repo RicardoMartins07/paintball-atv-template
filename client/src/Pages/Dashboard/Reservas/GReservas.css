@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.gerir-reservas {
+  text-align: center; /* Centraliza o texto no contêiner */
+  margin: 20px;
+  font-family: 'Inter', sans-serif; /* Aplica a fonte Inter ao contêiner principal */
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gerir-reservas h1 {
+
+    font-family: Inter;
+    font-size: 45px;
+    margin-top: 0.5em;
+    width: 100%;
+    text-align: center;
+    
+  
+}
+
+
+
+
+.reserva-table {
+  width: 90%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: 'Inter', sans-serif; /* Aplica a fonte Inter à tabela */
+}
+
+.reserva-table th,
+.reserva-table td {
+  padding: 10px !important;
+  border: 1px solid #ddd;
+  text-align: left;
+  
+  
+}
+
+
+
+.reserva-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center; /* Centraliza os botões */
+  flex-wrap: wrap; /* Permite que os botões se movam para a linha abaixo em telas pequenas */
+}
+
+.action-button1 {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+
+.action-button1 svg {
+  margin-right: 10px; /* Adiciona espaço à direita do ícone */
+}
+
+.confirm-button1 {
+  background-color: #4CAF50; /* Cor de fundo para o botão de confirmar */
+  color: white; /* Cor do texto para o botão de confirmar */
+}
+
+.delete-button1 {
+  background-color: #F44336; /* Cor de fundo para o botão de eliminar */
+  color: white; /* Cor do texto para o botão de eliminar */
+}
+
+.confirm-button1:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.delete-button1:hover {
+  background-color: #d32f2f;
+  transform: scale(1.05);
+}
+
+.clear-filters-button {
+  background-color: #ffc107; /* Cor de fundo do botão de limpar filtros */
+  color: white; /* Cor do texto do botão de limpar filtros */
+  border: none; /* Remove bordas padrão */
+  padding: 10px 15px; /* Espaçamento interno do botão de limpar filtros */
+  border-radius: 5px; /* Bordas arredondadas */
+  cursor: pointer; /* Cursor de mão ao passar o mouse */
+  transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+}
+
+.clear-filters-button:hover {
+  background-color: #e0a800; /* Cor ao passar o mouse sobre o botão de limpar filtros */
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination-button {
+  padding: 10px 15px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #007BFF;
+  color: white;
+}
+
+.pagination-button:hover {
+  background-color: #0056b3;
+}
+
+.pagination-button:disabled {
+  background-color: #ccc; /* Cinza para indicar que está desativado */
+  cursor: not-allowed; /* Cursor não permitido */
+  opacity: 0.5; /* Efeito de opacidade */
+}
+
+/* Estilos para os filtros */
+.filters {
+  width: 90%;
+  display: flex; /* Utiliza flexbox para disposição dos filtros */
+  justify-content: center; /* Centraliza os filtros horizontalmente */
+  margin: 0 auto; /* Espaçamento vertical para os filtros */
+  flex-wrap: wrap; /* Permite que os filtros se movam para a linha abaixo em telas pequenas */
+  gap: 10px; /* Espaçamento entre os filtros */
+}
+
+.filter-group {
+  display: flex; /* Flexbox para alinhamento do conteúdo */
+  flex-direction: column; /* Alinha o texto acima do input/select */
+  min-width: 150px; /* Largura mínima para cada grupo de filtro */
+  flex: 1; /* Permite que o filtro se expanda conforme o espaço disponível */
+}
+
+.filter-group select,
+.filter-group input {
+  padding: 10px; /* Padding interno para inputs e selects */
+  border: 1px solid #ddd; /* Borda padrão */
+  border-radius: 5px; /* Bordas arredondadas */
+  font-family: 'Inter', sans-serif; /* Fonte para os inputs */
+  font-size: 14px; /* Tamanho da fonte */
+  transition: border-color 0.3s; /* Efeito de transição para foco */
+}
+
+.filter-group select:focus,
+.filter-group input:focus {
+  border-color: #007bff; /* Muda a cor da borda ao focar */
+  outline: none; /* Remove o contorno padrão */
+}
+
+.filter-group select option {
+  padding: 10px; /* Padding para opções do select */
+}
+
+
+.notification {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  z-index: 1000;
+  font-weight: bold;
+}
+
+.notification.success {
+  background-color: #4caf50; /* Verde */
+}
+
+.notification.error {
+  background-color: #f44336; /* Vermelho */
+}
+
+/* Estilos para os slots de tempo */
+.time-slots-reservas {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1.4em;
+}
+
+.time-slot-reservas {
+  padding: 20px 10px;
+  margin-top: 5px;
+  margin-right: 1em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.time-slot-reservas:hover {
+  background-color: #f0f0f0;
+}
+
+.time-slot-reservas.selected {
+  background-color: #ff6600;
+  color: white;
+  border-color: #ff6600;
+}
+
+
+.add-button-container {
+  display: flex; /* Utiliza flexbox para alinhamento */
+  justify-content: flex-end; /* Centraliza o botão */
+  margin: 20px 0; /* Margem vertical para espaçamento */
+  width: 90%;
+  
+}
+
+.add-button {
+
+  padding: 10px 15px; /* Espaçamento interno do botão */
+  border: none; /* Remove bordas padrão */
+  border-radius: 5px; /* Bordas arredondadas */
+  cursor: pointer; /* Cursor de mão ao passar o mouse */
+  background-color: #007BFF; /* Cor de fundo padrão */
+  color: white; /* Cor do texto */
+  font-size: 16px; /* Tamanho da fonte */
+  display: flex; /* Flexbox para alinhar ícone e texto */
+  align-items: center; /* Alinha verticalmente o ícone e o texto */
+  transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .filters {
+    flex-direction: column; /* Alinha os filtros verticalmente em telas pequenas */
+    align-items: center; /* Centraliza os filtros */
+  }
+
+  .filter-group {
+    width: 100%; /* Faz os filtros ocuparem toda a largura disponível */
+    margin-bottom: 10px; /* Espaçamento inferior entre os filtros */
+  }
+
+  .button-group {
+    flex-direction: column; /* Muda para coluna em telas pequenas */
+  }
+
+  .button-group .action-button1 {
+    width: 100%; /* Faz os botões ocuparem toda a largura */
+    margin-bottom: 10px; /* Espaçamento inferior entre os botões */
+  }
+
+  .notification {
+    font-size: 0.9rem; /* Ajusta o tamanho da fonte da notificação */
+  }
+
+  .add-button-container {
+    width: 100%; /* Faz a contêiner ocupar toda a largura */
+    justify-content: center; /* Centraliza o botão */
+  }
+
+  .add-button {
+    width: fit-content; /* Faz o botão ocupar toda a largura da contêiner */
+    margin-bottom: 10px; /* Espaçamento inferior */
+  }
+}
+

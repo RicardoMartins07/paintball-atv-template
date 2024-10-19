@@ -1,0 +1,91 @@
+/* Global styles for body */
+
+  
+  /* Center the login box on the screen */
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Styling for the login box */
+  .login-box {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Title styling */
+  .login-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+    font-family: Inter;
+    width: 100%;
+  }
+  
+  /* Form input styling */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Input fields styling */
+  .login-input {
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+  }
+  
+  /* Button styling */
+  .login-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: Inter;
+  }
+  
+  .login-button:hover {
+    background-color: #45a049;
+  }
+
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* Responsive styles for mobile devices */
+  @media (max-width: 768px) {
+    .login-box {
+      padding: 1.5rem;
+      width: 90%;
+    }
+  
+    .login-title {
+      font-size: 2rem;
+    }
+  
+    .login-input {
+      padding: 0.5rem;
+    }
+  
+    .login-button {
+      padding: 0.5rem;
+      font-size: 1rem;
+    }
+  }
+  

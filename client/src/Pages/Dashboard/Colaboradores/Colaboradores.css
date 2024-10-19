@@ -1,0 +1,269 @@
+/* Colaboradores.css */
+.gerir-colaboradores {
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+    text-align: center; /* Centraliza o texto */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    
+        font-family: Inter;
+        font-size: 45px;
+        margin-top: 0.5em;
+        width: 100%;
+        text-align: center;
+        
+      
+}
+
+
+.add-button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.add-button:hover {
+    background-color: #218838;
+}
+
+.colaborador-table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: 'Inter', sans-serif; /* Aplica a fonte Inter à tabela */
+}
+
+.colaborador-table th,
+.colaborador-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.colaborador-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+
+
+.editable-input {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Espaçamento entre os botões */
+    
+}
+
+.action-button {
+    padding: 13px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.edit-button {
+    background-color: #007bff;
+    color: white;
+}
+
+.edit-button:hover {
+    background-color: #0056b3;
+}
+
+.delete-button {
+    background-color: #dc3545;
+    color: white;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+.confirm-button {
+    background-color: #28a745; /* Verde */
+    color: white;
+    padding: 10px 15px; /* Aumentado */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.confirm-button:hover {
+    background-color: #218838;
+}
+
+/* Estilo do botão de confirmação no modal */
+.confirm-delete-button {
+    background-color: #dc3545; /* Vermelho */
+    color: white;
+    padding: 10px 15px; /* Aumentado */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Aumentado */
+}
+
+.confirm-delete-button:hover {
+    background-color: #c82333; /* Tom mais escuro de vermelho */
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.modal-content {
+    background-color: white;
+    padding: 30px; /* Aumentado */
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    width: 40%; /* Aumentado */
+    position: relative; /* Para posicionar o botão de fechar */
+}
+
+.close {
+    cursor: pointer;
+    position: absolute; /* Posiciona o botão de fechar */
+    top: 15px; /* Distância do topo */
+    right: 15px; /* Distância da direita */
+    font-size: 28px; /* Aumentado */
+    padding: 15px; /* Aumentado */
+    background: none; /* Remover fundo */
+    border: none; /* Remover borda */
+}
+
+.close:hover {
+    color: #dc3545; /* Altera a cor no hover, opcional */
+}
+
+.modal-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo do Modal */
+.modal {
+    position: fixed; /* Fixa o modal na tela */
+    z-index: 1000; /* Certifique-se de que o modal esteja acima de outros elementos */
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo escuro */
+    display: flex; /* Usa Flexbox para centralizar o conteúdo */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+
+.add-button svg {
+    margin-right: 8px; /* Adiciona um espaço entre o ícone e o texto */
+}
+
+
+.notification {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    z-index: 1000;
+  }
+  
+  .notification.success {
+    background-color: #28a745; /* Verde */
+  }
+  
+  .notification.error {
+    background-color: #dc3545; /* Vermelho */
+  }
+
+
+  /*COLORPICKER*/
+
+  .color-picker-container .react-colorful {
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .box-color .react-colorful {
+    height: 80px;
+  }
+
+  
+  @media only screen and (max-width: 1024px) and (orientation: landscape) {
+
+    .modal{
+        overflow: scroll;
+        
+    }
+.modal-content {
+    background-color: white;
+    padding: 30px; /* Aumentado */
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    width: 50%; /* Aumentado */
+    position: relative; /* Para posicionar o botão de fechar */
+    margin-top: 10em;
+    
+}
+
+
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    .modal-content {
+        background-color: white;
+        padding: 30px; /* Aumentado */
+        border-radius: 5px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        width: 70%; /* Aumentado */
+        position: relative; /* Para posicionar o botão de fechar */
+    }
+
+    .close {
+        cursor: pointer;
+        position: absolute; /* Posiciona o botão de fechar */
+        top: 0px; /* Distância do topo */
+        right: 0px; /* Distância da direita */
+        font-size: 28px; /* Aumentado */
+        padding: 15px; /* Aumentado */
+        background: none; /* Remover fundo */
+        border: none; /* Remover borda */
+    }
+  }

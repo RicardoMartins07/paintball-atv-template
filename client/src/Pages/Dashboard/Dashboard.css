@@ -1,0 +1,38 @@
+/* src/Pages/Dashboard/Dashboard.css */
+
+.dashboard-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+
+.main-dashboard {
+    background-color: #fff;
+    flex: 1; /* Ocupará o restante da largura disponível */
+    height: 100vh;
+    overflow-y: auto;
+    margin-left: 240px;
+    
+}
+
+/* Para ecrãs pequenos e em modo paisagem, remover o espaçamento da sidebar */
+@media (max-width: 768px) {
+    .dashboard-container {
+        flex-direction: column; /* Muda para coluna em dispositivos menores */
+    }
+
+    .sidebar {
+        width: 100%; /* Sidebar ocupa toda a largura na tela pequena */
+        position: relative; /* Mudar para relativo em dispositivos pequenos */
+        height: fit-content; /* Altura automática quando em modo responsivo */
+    }
+
+    .main-dashboard {
+     
+        margin-left: 0;
+    }
+}

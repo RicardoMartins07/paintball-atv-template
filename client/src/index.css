@@ -1,0 +1,1155 @@
+body {
+  margin: 0;
+  background-color: #E3DCD4;
+  /*margin-left: 13%;
+  margin-right: 13%;*/
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+.hero-section-introduction{
+  height: 95vh;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin-left: 13%;
+  margin-right: 13%;
+  max-width: 100%;
+ 
+}
+
+.hero{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  height: auto;
+  width: 100%;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: stretch;
+  column-gap: 150px;
+  padding-top: 30px;
+  max-width: 100%;
+  
+  
+
+}
+
+.hero-introduction{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+h1{
+ font-size: 65px;
+ font-family: Plus Jakarta Sans;
+ font-weight: 700;
+ margin-bottom: 0;
+ width: fit-content;
+ height: fit-content;
+ min-height: 10px;
+ min-width: 16px;
+ padding-bottom: 20px;
+}
+
+p{
+  margin-top: 0;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 400;
+}
+
+.btn-reserva{
+  background-color: #EE6A2D;
+  color: white;
+  border-radius: 3px;
+  width: fit-content;
+  height: fit-content;
+  min-height: 50px;
+  padding: 3px 15px 3px 15px;
+  display: block;
+  position: relative;
+  font-family: Inter;
+  font-size: 16px;
+  
+}
+
+.btn-reserva:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+
+
+ .paintball img , .atv img , .hero img{
+  padding-top: 20px;
+  position: relative;
+  display: block;
+  max-height: 700px;
+  max-width: 600px;
+  min-height: 500px;
+  width: 100%;
+  height: 100px;
+  border-radius: 316px 316px 0 0;
+  display: flex;
+  align-self: center;
+}
+
+
+/*AD Area*/
+
+.a-area{
+  background-color: #12141D;
+  display: block !important;
+
+  
+}
+
+.a-margens{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  font-family: Inter;
+  height: 30vh;
+  align-items: center;
+  margin-left: 13%;
+  margin-right: 13%;
+}
+
+.a-area h2{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.a-area p{
+  font-size: 15px ;
+  font-weight: 400;
+}
+
+.separator{
+background-color:#ffffff19 ;
+border: transparent;
+display: flex;
+flex-direction: column;
+position: relative;
+width: 1px;
+height: 20vh;
+}
+
+.feature{
+  width: 100%;
+  height: auto;
+  max-width: 270px;
+}
+
+/*INFO PAINTBALL & ATV*/
+
+.info-services {
+  padding-bottom: 2em;
+}
+
+.paintball{
+  display: flex;
+  flex-direction: row;
+  margin-left: 13%;
+  margin-right: 13%;
+  padding-top: 2em;
+  column-gap: 60px;
+}
+
+.paintball img , .atv img{
+  object-fit: cover;
+  border-radius: 316px 316px 0 0;
+  min-height: 500px;
+  max-width: 500px;
+  max-height: 400px;
+  height: 100px;
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info h3 , .atv h3{
+  width: fit-content;
+  height: fit-content;
+  min-width: 16px;
+  min-height: 10px;
+  display: block;
+  font-family: Plus Jakarta Sans;
+  font-size: 46px;
+  font-weight: 700;
+}
+
+.info p , .atv p{
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 20px;
+  width: fit-content;
+  height: fit-content;
+  min-width: 16px;
+  min-height: 10px;
+  position: relative;
+  max-width: 615px;
+}
+
+.atv{
+  display: flex;
+  flex-direction: row;
+  margin-left: 13%;
+  margin-right: 13%;
+  padding-top: 2em;
+  column-gap: 60px;
+  padding-bottom: 2em;
+}
+
+.services{
+  font-size: 23px !important;
+  font-weight: 700 !important;
+  font-family: Plus Jakarta Sans !important;
+  width: fit-content;
+  height: fit-content;
+  min-width: 16px;
+  min-height: 10px;
+  max-width: 525px;
+}
+
+
+
+
+.ad-area2{
+  width: 100%;
+  background-color: #EE6A2D;
+  color: white;
+  height: 8vh;
+  display: flex;
+  align-items:center;
+  
+}
+
+.ad-aventura{
+  width: 100%;
+  height: 6vh;
+  display: flex;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  justify-content: center;
+}
+
+.ad-aventura p{
+  font-family: Plus Jakarta Sans !important;
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+
+
+/*Questions*/
+
+.questions{
+  width: 100%;
+  padding-bottom: 6em;
+}
+
+.questions h3{
+  font-family: Plus Jakarta Sans !important;
+  font-size: 46px;
+  font-weight: 700;
+  width: fit-content;
+  height: fit-content;
+  min-width: 16px;
+  min-height: 10px;
+  max-width: 1000px;
+  padding-bottom: 60px;
+  text-align: center;
+  
+}
+
+.frequent-questions{
+  padding-top: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 13%;
+  margin-right: 13%;
+
+}
+
+/*Contactos*/
+
+.contact{
+  background-color: #12141D;
+  color: white;
+  
+}
+
+.contact p{
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 20px;
+  
+}
+
+.contacts{
+  margin-left: 13%;
+  margin-right: 13%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3em;
+  padding-bottom: 3em;
+
+}
+
+.contact-img{
+  width: 800px;
+  height: 450px;
+}
+
+
+.contact-info{
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+}
+
+.contact-info img{
+  width: 64px;
+  height: 64px;
+  margin-right: 0.6em;
+}
+
+.contact-info p{
+  display: flex;
+  padding: 0.4em;
+  width: fit-content;
+  height: fit-content;
+  align-self: center;
+  vertical-align: middle;
+  line-height: 2.5;
+  
+}
+
+/*FOOTER*/
+.icon-social-footer:hover{
+  cursor: pointer;
+  filter: opacity(21%);
+}
+
+.footer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 15vh;
+}
+
+
+.footer-bottom{
+    width:60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.copyright{
+
+font-family: Inter;
+font-size: 15px;
+
+}
+
+.social-footer img{
+
+padding-right: 0.5rem;
+width: 2.7rem;
+
+}
+
+.social-footer{
+
+height: fit-content;
+
+}
+
+
+/*Reservas*/
+.box h2{
+  font-size: 40px;
+  font-family: Plus Jakarta Sans;
+  font-weight: 700;
+}
+
+
+
+
+/*Media Queries*/
+/* Ajustar layout com base na altura mínima de 600px */
+@media only screen and (min-height: 600px) {
+  
+}
+
+/* Para telas com proporção específica */
+@media only screen and (min-aspect-ratio: 16/9) {
+  
+}
+
+/* Para orientação paisagem */
+@media only screen and (orientation: landscape) {
+ 
+}
+
+@media (min-width: 1540px) {
+
+}
+
+/* Para desktops (largura mínima de 1024px) */
+@media only screen and (min-width: 1024px) and (max-width:1500px) {
+ 
+    
+  .hero{
+    padding-top: 0;
+    
+  }
+
+  .hero-introduction{
+    height: 81vh;
+  }
+
+  h1{
+    font-size: 60px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    margin-bottom: 0;
+    width: fit-content;
+    height: fit-content;
+    min-height: 10px;
+    min-width: 16px;
+    padding-bottom: 20px;
+   }
+   
+   p{
+     margin-top: 0;
+     font-size: 17px;
+     font-family: Inter;
+     font-weight: 400;
+   }
+
+   .hero img{
+    padding-top: 20px;
+    position: relative;
+    display: block;
+    max-height: 700px;
+    max-width: 800px;
+    min-width: 470px;
+    min-height: 470px;
+    width: 100%;
+    height: 100px;
+    border-radius: 316px 316px 0 0;
+    display: flex;
+    align-self: center;
+  }
+
+  .a-margens{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    font-family: Inter;
+    height: 35vh;
+    align-items: center;
+    margin-left: 13%;
+    margin-right: 13%;
+  }
+  
+  .a-area h2{
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .a-area p{
+    font-size: 13px ;
+    font-weight: 400;
+  }
+  
+  .separator{
+  background-color:#ffffff19 ;
+  border: transparent;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 1px;
+  height: 20vh;
+  }
+  
+  .feature{
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+  }
+
+  .ad-area2{
+    
+    height: fit-content;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    
+  }
+  
+  .ad-aventura{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    justify-content: center;
+    
+  }
+  
+  .ad-aventura p{
+    font-family: Plus Jakarta Sans !important;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  .contact-img{
+    width: 65%;
+    height: 400px;
+    
+  }
+
+}
+
+
+/* Para tablets (largura entre 768px e 1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  
+}
+
+/* Para dispositivos móveis (smartphones) - largura máxima de 768px */
+@media only screen and (max-width: 768px) {
+  .hero-section-introduction{
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-left: 13%;
+    margin-right: 13%;
+   
+  }
+  
+  .hero{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: auto;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    padding: 0;
+    
+    
+    
+  
+  }
+  
+  .hero-introduction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  h1{
+   font-size: 55px;
+   font-family: Plus Jakarta Sans;
+   font-weight: 700;
+   margin-bottom: 0;
+   width: fit-content;
+   height: fit-content;
+   min-height: 10px;
+   min-width: 16px;
+   padding-bottom: 20px;
+   margin-top: 0.4em;
+  }
+  
+  p{
+    margin-top: 0;
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: 400;
+  }
+  
+  .hero img{
+    padding-top: 55px;
+    position: relative;
+    display: block;
+    max-height: 700px;
+    max-width: 300px;
+    min-width: 150px;
+    min-height: 350px;
+    width: 100%;
+    height: 100px;
+    border-radius: 316px 316px 0 0;
+    display: flex;
+    align-self: center;
+    padding-bottom: 31px;
+    
+  }
+
+
+  /*AD*/
+  .a-margens{
+    
+    flex-direction: column;
+    justify-content: space-between;
+    
+    height: fit-content;
+    
+  }
+  
+  .a-area h2{
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .a-area p{
+    font-size: 15px ;
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  .separator{
+  background-color:#ffffff19 ;
+  border: transparent;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 47vh;
+  height: 1px;
+  }
+  
+  .feature{
+    width: 100%;
+    height: auto;
+    max-width: 220px;
+    padding: 0.5em;
+  }
+
+
+  .info-services {
+    padding-bottom: 2em;
+  }
+  
+  .paintball{
+    display: flex;
+    flex-direction: column;
+    margin-left: 13%;
+    margin-right: 13%;
+    padding-top: 2em;
+    column-gap: 60px;
+  }
+  
+  .paintball img , .atv img{
+    object-fit: cover;
+    border-radius: 316px 316px 0 0;
+    min-height: 400px;
+    max-width: 500px;
+    max-height: 300px;
+    height: 100px;
+    width: 100%;
+    display: block;
+    position: relative;
+  }
+  
+  .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .info h3 , .atv h3{
+    width: fit-content;
+    height: fit-content;
+    min-width: 20px;
+    min-height: 10px;
+    display: block;
+    font-family: Plus Jakarta Sans;
+    font-size: 37px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .info p , .atv p{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    width: fit-content;
+    height: fit-content;
+    min-width: 16px;
+    min-height: 10px;
+    position: relative;
+    max-width: 615px;
+    text-align: center;
+  }
+  
+  .atv{
+    display: flex;
+    flex-direction: column;
+    margin-left: 13%;
+    margin-right: 13%;
+    padding-top: 2em;
+    column-gap: 60px;
+    padding-bottom: 2em;
+  }
+  
+  .services{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    font-family: Plus Jakarta Sans !important;
+    height: fit-content;
+    text-align: center !important;
+    padding-top: 0.5em;
+  }
+  
+
+  .ad-area2{
+    
+    height: fit-content;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    
+  }
+  
+  .ad-aventura{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    justify-content: center;
+    
+  }
+  
+  .ad-aventura p{
+    font-family: Plus Jakarta Sans !important;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 1.7;
+  }
+
+  .questions h3{
+    font-family: Plus Jakarta Sans !important;
+    font-size: 37px;
+    min-width: none !important;
+    padding-bottom: 0;
+    
+    
+  }
+
+  
+.btn-reserva{
+  margin-top: 1.3em;
+  
+}
+
+  /*Contactos*/
+
+
+
+
+.contact p{
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 15px;
+  
+}
+
+.contacts{
+ 
+  flex-direction: column;
+  
+  
+
+}
+
+.contact-img{
+  width: 100%;
+  height: 400px;
+  padding-top: 2em;
+}
+
+
+.contact-info{
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+}
+
+
+
+.contact-info p{
+ 
+  line-height: 3;
+  
+}
+
+
+.footer-bottom{
+  width:100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.copyright{
+  
+  font-family: Inter;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 2rem;
+ }
+ 
+ .footer{
+  height:fit-content;
+  width: 100%;
+
+ }
+}
+
+/* Para dispositivos menores em modo paisagem (landscape), como tablets e smartphones */
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+
+  body, .container {
+    margin: 0;
+    padding: 0;
+}
+  
+  .hero-section-introduction{
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-left: 13%;
+    margin-right: 13%;
+   
+  }
+  
+  .hero{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: auto;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    padding: 0;
+    
+    
+    
+  
+  }
+  
+  .hero-introduction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  h1{
+   font-size: 55px;
+   font-family: Plus Jakarta Sans;
+   font-weight: 700;
+   margin-bottom: 0;
+   width: fit-content;
+   height: fit-content;
+   min-height: 10px;
+   min-width: 16px;
+   padding-bottom: 20px;
+   margin-top: 0.4em;
+  }
+  
+  p{
+    margin-top: 0;
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: 400;
+  }
+  
+  .hero img{
+    padding-top: 55px;
+    position: relative;
+    display: block;
+    max-height: 700px;
+    max-width: 300px;
+    min-width: 150px;
+    min-height: 350px;
+    width: 100%;
+    height: 100px;
+    border-radius: 316px 316px 0 0;
+    display: flex;
+    align-self: center;
+    padding-bottom: 31px;
+    
+  }
+
+
+  /*AD*/
+  .a-margens{
+    
+    flex-direction: column;
+    justify-content: space-between;
+    
+    height: fit-content;
+    
+  }
+  
+  .a-area h2{
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .a-area p{
+    font-size: 15px ;
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  .separator{
+  background-color:#ffffff19 ;
+  border: transparent;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 47vh;
+  height: 1px;
+  }
+  
+  .feature{
+    width: 100%;
+    height: auto;
+    max-width: 220px;
+    padding: 0.5em;
+  }
+
+
+  .info-services {
+    padding-bottom: 2em;
+  }
+  
+  .paintball{
+    display: flex;
+    flex-direction: column;
+    margin-left: 13%;
+    margin-right: 13%;
+    padding-top: 2em;
+    column-gap: 60px;
+  }
+  
+  .paintball img , .atv img{
+    object-fit: cover;
+    border-radius: 316px 316px 0 0;
+    min-height: 400px;
+    max-width: 500px;
+    max-height: 300px;
+    height: 100px;
+    width: 100%;
+    display: block;
+    position: relative;
+  }
+  
+  .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .info h3 , .atv h3{
+    width: fit-content;
+    height: fit-content;
+    min-width: 20px;
+    min-height: 10px;
+    display: block;
+    font-family: Plus Jakarta Sans;
+    font-size: 37px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .info p , .atv p{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    width: fit-content;
+    height: fit-content;
+    min-width: 16px;
+    min-height: 10px;
+    position: relative;
+    max-width: 615px;
+    text-align: center;
+  }
+  
+  .atv{
+    display: flex;
+    flex-direction: column;
+    margin-left: 13%;
+    margin-right: 13%;
+    padding-top: 2em;
+    column-gap: 60px;
+    padding-bottom: 2em;
+  }
+  
+  .services{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    font-family: Plus Jakarta Sans !important;
+    height: fit-content;
+    text-align: center !important;
+    padding-top: 0.5em;
+  }
+  
+
+  .ad-area2{
+    
+    height: fit-content;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    
+  }
+  
+  .ad-aventura{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    justify-content: center;
+    
+  }
+  
+  .ad-aventura p{
+    font-family: Plus Jakarta Sans !important;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 1.7;
+  }
+
+  .questions h3{
+    font-family: Plus Jakarta Sans !important;
+    font-size: 37px;
+    min-width: none !important;
+    padding-bottom: 0;
+    
+    
+  }
+
+  
+.btn-reserva{
+  margin-top: 1.3em;
+  
+}
+
+  /*Contactos*/
+
+
+
+
+.contact p{
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 15px;
+  
+}
+
+.contacts{
+ 
+  flex-direction: column;
+  
+  
+
+}
+
+.contact-img{
+  width: 100%;
+  height: 400px;
+  padding-top: 2em;
+}
+
+
+.contact-info{
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+}
+
+
+
+.contact-info p{
+ 
+  line-height: 3;
+  
+}
+
+
+.footer-bottom{
+  width:100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.copyright{
+  
+  font-family: Inter;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 2rem;
+ }
+ 
+ .footer{
+  height:fit-content;
+  width: 100%;
+
+ }
+}
+
+
+html {
+  font-size: 16px; /* ou o valor que pretendes */
+}

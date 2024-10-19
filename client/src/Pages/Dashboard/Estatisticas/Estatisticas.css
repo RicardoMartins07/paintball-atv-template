@@ -1,0 +1,176 @@
+.statistics-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+ 
+  overflow-x: hidden;
+
+  
+}
+
+.statistics-section h1{
+  font-family: Inter;
+  font-size: 45px;
+  margin-top: 0.5em;
+  width: 100%;
+  text-align: center;
+  
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 20px;
+  flex-wrap: wrap; /* Permite que os cartões se movam para a próxima linha */
+}
+
+.card {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  
+  max-width: 100%; /* Garante que os cartões não excedam a largura da tela */
+}
+
+.card h3{
+  font-family: Inter;
+}
+
+/* Estilos para os gráficos */
+.charts {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px;
+  
+  margin-top: 40px;
+  flex-wrap: wrap; /* Permite que os gráficos se movam para a próxima linha */
+  gap: 50px;
+  
+  
+}
+
+.charts > div {
+  flex: 1;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+
+  
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    margin-bottom: 20px;
+    width: 100%; /* Garante que os cartões ocupem a largura total */
+    max-width: 85%;
+  }
+
+  .charts {
+    flex-direction: column; /* Empilha os gráficos em telas menores */
+    align-items: center;
+    
+  }
+
+  .charts > div {
+    
+    margin-right: 0;
+    margin-bottom: 25px;
+    width: 85%;
+    max-width: 85%;
+    height: 300px; /* Altura reduzida para telas menores */
+   
+  }
+
+  .chart-title {
+    text-align: center;
+    font-family: Inter;
+  }
+}
+
+/* Responsividade para dispositivos com largura menor que 480px */
+@media (max-width: 480px) {
+  .cards {
+    flex-direction: column;
+    margin: 0; /* Remove margens para caber melhor em telas pequenas */
+    
+    
+  }
+
+  .card {
+    margin-bottom: 10px; /* Diminui o espaço entre os cartões */
+    max-width: 80%; /* Garante que os cartões ocupem a largura total */
+    
+  }
+
+  .charts {
+    flex-direction: column; /* Empilha os gráficos em telas menores */
+    align-items: center;
+  }
+
+  .charts > div {
+    height: 250px; /* Reduz a altura dos gráficos */
+    margin-right: 0;
+    margin-bottom: 25px;
+    max-width: 80%;
+    
+  }
+
+  .chart-title {
+    font-size: 1.5rem; /* Ajusta o tamanho da fonte para o título do gráfico */
+    text-align: center;
+    font-family: Inter;
+  }
+}
+
+/* Responsividade para orientação paisagem */
+@media (orientation: landscape) {
+  .charts > div {
+    height: 300px; /* Ajusta a altura dos gráficos para paisagem */
+  }
+
+  .card {
+    max-width: 85%; /* Permite que dois cartões fiquem lado a lado em paisagens */
+  }
+
+  .charts > div {
+    height: 250px; /* Reduz a altura dos gráficos */
+    margin-right: 0;
+    margin-bottom: 25px;
+    max-width: 80%;
+    
+  }
+
+  .chart-title {
+    font-size: 1.5rem; /* Ajusta o tamanho da fonte para o título do gráfico */
+    text-align: center;
+    font-family: Inter;
+  }
+}
+
+

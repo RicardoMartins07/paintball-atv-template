@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.navbar{
+    background-color: #E3DCD4;
+    height: 13vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* Remove o sublinhado de todos os links */
+a {
+    text-decoration: none; /* Remove o sublinhado */
+  }
+  
+  /* Se você estiver usando Link do React Router especificamente */
+  .react-router-link {
+    text-decoration: none; /* Remove o sublinhado dos links do React Router */
+  }
+
+.navbar-logo{
+    display: flex;
+    color:#0e2431;
+    font-size: 24px;
+    font-weight: 800;
+    text-decoration: none;
+    font-family: Inter, sans-serif;
+    margin-top: 60%;
+}
+
+
+/* Para desktops (largura mínima de 1024px) */
+@media only screen and (min-width: 1024px) and (max-width:1500px) {
+ 
+    
+    .navbar{
+        height: fit-content;
+    }
+  
+
+  }
+
+  @media (max-width: 767px) {
+    
+    .navbar{
+        height: fit-content;
+        
+    }
+
+    .navbar-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+    
+        
+    }
+
+    .nav-item a{
+        font-style: normal;
+        color:black ;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 0.75rem;
+    }
+
+    .nav-item{
+        
+        padding: auto;
+        margin: auto;
+    }
+
+    .navbar-menu-collapse{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        
+        
+        
+    }
+
+    .navbar-nav{
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+       
+        
+    }
+    
+    .navbar-logo{
+        margin-top: 2rem;
+        font-size: 1.4rem;
+        font-weight: 800;
+        margin-left: 0;
+        margin-bottom: 1.5rem;
+    }
+}
+
+
+/* Para dispositivos menores em modo paisagem (landscape), como tablets e smartphones */
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+
+    .navbar{
+        height: fit-content;
+        
+    }
+
+    .navbar-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+    
+        
+    }
+
+    .nav-item a{
+        font-style: normal;
+        color:black ;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 0.75rem;
+    }
+
+    .nav-item{
+        
+        padding: auto;
+        margin: auto;
+    }
+
+    .navbar-menu-collapse{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        
+        
+        
+    }
+
+    .navbar-nav{
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+       
+        
+    }
+    
+    .navbar-logo{
+        margin-top: 2rem;
+        font-size: 1.4rem;
+        font-weight: 800;
+        margin-left: 0;
+        margin-bottom: 1.5rem;
+    }
+}
