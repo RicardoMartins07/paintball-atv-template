@@ -1,34 +1,37 @@
 # Paintball & ATV Template
 
-Este repositório contém um template de site desenvolvido para empresas e eventos de Paintball e ATV (All-Terrain Vehicle). O projeto foi criado utilizando **React** para oferecer uma interface moderna, dinâmica e totalmente responsiva, proporcionando uma experiência otimizada tanto para desktop quanto para dispositivos móveis.
+This repository contains a website template developed for Paintball and ATV (All-Terrain Vehicle) companies and events. The project was built using **React** to offer a modern, dynamic, and fully responsive interface, ensuring an optimized experience for both desktop and mobile devices.
 
-## Funcionalidades
+## Features
 
-- **Design Responsivo:** O layout adapta-se automaticamente a diferentes tamanhos de tela, garantindo uma ótima experiência em smartphones, tablets e desktops.
-- **Navegação Fácil:** Um menu de navegação intuitivo para facilitar o acesso às seções principais do site.
-- **Galeria de Imagens:** Exibição de imagens de alta qualidade para promover as atividades de Paintball e ATV.
-- **FAQ:** Seção de perguntas frequentes (FAQ) para esclarecer dúvidas comuns dos visitantes.
-- **Integração com Redes Sociais:** Links rápidos para Facebook e Instagram.
+### Client-Side:
+- **Responsive Design:** The layout automatically adapts to different screen sizes, ensuring a great experience on smartphones, tablets, and desktops.
+- **Easy Navigation:** An intuitive navigation menu to facilitate access to the main sections of the site.
+- **Image Gallery:** High-quality image display to promote Paintball and ATV activities.
+- **FAQ:** Frequently Asked Questions (FAQ) section to clarify common visitor inquiries.
+- **Social Media Integration:** Quick links to Facebook and Instagram.
 
-## Tecnologias Utilizadas
+### Admin-Side:
+- **Admin Dashboard:** A management panel where administrators can:
+  - Manage reservations
+  - View statistics
+  - Manage collaborators
+  - Access a map of activities
 
-- **React**: Biblioteca JavaScript para a construção da interface de usuário.
-- **CSS3**: Estilização customizada para garantir um design moderno.
-- **HTML5**: Estrutura semântica para garantir a acessibilidade e SEO.
+## Technologies Used
 
+- **React**: JavaScript library for building the user interface.
+- **CSS3**: Custom styling to ensure a modern design.
+- **HTML5**: Semantic structure for accessibility and SEO.
+- **Node.js**: Used for the backend.
 
-## Estrutura do Projeto
+## Accessing the Admin Dashboard
 
-- **/public**: Contém os arquivos estáticos como ícones, manifesto e index.html.
-- **/src**: Diretório principal com os arquivos do código-fonte.
-  - **/Assets**: Armazena as imagens utilizadas no projeto.
-  - **/Components**: Contém os componentes React, como o Navbar e a FAQ.
-  
-## Como Executar o Projeto
+To access the admin dashboard, use the following credentials:
 
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/ricardoMartins07/paintball-atv-template.git
+Username: admin1
+Password: admin1
+
 
 ## Preview
 [Demo Client](https://paintball-atv-frontend.onrender.com/)
